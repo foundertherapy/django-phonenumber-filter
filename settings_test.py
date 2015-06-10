@@ -13,18 +13,3 @@ INSTALLED_APPS = (
     'phonenumber_filter',
 )
 
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'USERNAME': 'ubuntu',
-        'HOST': '127.0.0.1',
-        'PORT': 5432,
-        'NAME': 'circle_test',
-    }
-}
-
-MIDDLEWARE_CLASSES = (
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-)
