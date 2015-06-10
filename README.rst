@@ -24,7 +24,7 @@ Add "phonenumber_filter" to your INSTALLED_APPS setting like this:
 
 Then, in your template, load the ``phonenumber_filter`` template tag library:
 
-    {% load phonenumber_filter %}
+    {% load phonenumber_filters %}
 
 To format and print a phone number, use the ``phonenumber`` filter:
 
@@ -34,3 +34,8 @@ If you want to format the phone number for a particular country, include the
 optional country code:
 
     {{ raw_phone_number|phonenumber:"IL" }}
+    
+International and E164 formats are also supported:
+
+    {{ raw_phone_number|phonenumber_international:"IL" }}
+    {{ raw_phone_number|phonenumber_e164:"IL" }}

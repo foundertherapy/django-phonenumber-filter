@@ -3,7 +3,7 @@
 
 import re
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 with open('phonenumber_filter/__init__.py', 'r') as init_file:
@@ -19,7 +19,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='django-phonenumber-filter',
     version=version,
-    packages=['phonenumber_filter'],
+    packages=find_packages(),
     # license='MIT License',
     # include_package_data=True,
     description=(

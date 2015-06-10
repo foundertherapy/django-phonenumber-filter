@@ -1,7 +1,9 @@
 from django import template
-register = template.Library()
 
 import phonenumbers
+
+
+register = template.Library()
 
 
 @register.filter(name='phonenumber')
