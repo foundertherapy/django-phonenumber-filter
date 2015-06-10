@@ -1,0 +1,10 @@
+*.log
+*.pot
+*.pyc
+*.sqlite
+.DS_Store
+*~
+*.sqlite3
+.idea
+dist
+*.egg-info

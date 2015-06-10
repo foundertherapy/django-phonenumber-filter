@@ -1,0 +1,10 @@
+setuptools
+coverage
+django-extensions
+Django
+django_coverage
+flake8
+pep8
+phonenumbers
+pyflakes
+yolk
