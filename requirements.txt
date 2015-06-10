@@ -1,6 +1,6 @@
 setuptools
 coverage
-django-extensions
+django_extensions
 Django
 django_coverage
 flake8
