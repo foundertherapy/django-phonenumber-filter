@@ -27,12 +27,12 @@ setup(
         'a template.'
     ),
     url='http://github.com/foundertherapy/django-phonenumber-filter/',
-    download_url='https://github.com/foundertherapy/django-phonenumber-filter/archive/v1.0.tar.gz',
+    download_url='https://github.com/foundertherapy/django-phonenumber-filter/archive/1.0.0.tar.gz',
     author='Dana Spiegel',
     author_email='dana@foundertherapy.co',
     install_requires=[
         'Django>=1.7',
-        'phonenumber>=7',
+        'phonenumbers>=7',
     ],
     keywords=['phonenumber', 'django', 'filter', 'format', ],
 )
