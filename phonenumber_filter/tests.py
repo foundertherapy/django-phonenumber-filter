@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import unittest
 
-from templatetags.phonenumber_filter import (
+from templatetags.phonenumber_filters import (
     phonenumber, phonenumber_international, phonenumber_e164)
 
 
